@@ -319,7 +319,7 @@ img{
     ; 
   }
   .nav ul{
-    display:block;
+    display:none;
     background-color:#1f4828;
     margin: 0px;
     padding: 0px;
