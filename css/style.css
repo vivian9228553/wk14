@@ -30,7 +30,7 @@ header{
   float:right;
 }
 
-header img.menu{
+.menu1{
   display: none;
 }
 
@@ -289,13 +289,15 @@ img{
     height: 26px;
     margin-bottom: 20px;
   }
-  header img.menu{
+  .menu1{
     display:block;
     box-sizing: border-box;
     margin-right: 5px;
     margin-top: 8px;
     float: right;
+    position: relative;
   }
+  
   .box {
     margin: auto;
     margin-right: 82px;
@@ -309,10 +311,34 @@ img{
     display: none;
   }
   .nav{
-    display:none;
+    margin: 0px;
+    height: 0px;
   }
   .nav-list{
-
+    margin: 0px;
+    ; 
+  }
+  .nav ul{
+    display:block;
+    background-color:#1f4828;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+  .nav li{
+    
+    float: none;
+    width: 100%;
+    font-size: 25px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  .nav a{
+    margin: 0px;
   }
   .main img{
     display: none;
